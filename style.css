@@ -1,0 +1,100 @@
+/*
+Theme Name: Gary Consulting Website
+Text Domain: garyconsulting
+Version: 1.0
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: Custom theme for Star Solutions Consulting
+Tags: businesspage
+Author: Matthew Pecko
+Author URI: https://matthew1172.github.io/matthewpecko/
+Theme URI: https://wordpress.org/themes/twentytwenty/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.introFont {
+    font-family: 'Lato', sans-serif;
+}
+
+.heroText {
+    /*font-family: 'Calibri', sans-serif;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*color: #ffc000;  */
+    /*text-decoration: underline;*/
+    font-size: 96px;
+    text-align: center;
+}
+
+footer ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+body {
+    /*background-color: #143B56;*/
+    background-color: white;
+}
+
+.hC {
+    color: #0000ff;
+}
+
+.hC2 {
+    color: #0000ff;
+}
+
+@media only screen and (max-width: 805px) {
+    .heroText {
+        font-size: 48px;
+    }
+    .hC {
+        font-size: 24px;
+    }
+    .container{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 728px) {
+    .heroText {
+        font-size: 40px;
+    }
+    .hC {
+        font-size: 24px;
+    }
+    .container{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    .heroText {
+        font-size: 32px;
+    }
+    .hC {
+        font-size: 16px;
+    }
+    .container{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
